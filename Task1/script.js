@@ -5,9 +5,10 @@ function showMenu(menu){
     }
 }
 function availableFood(foodName,menu){
-
+document.write("<h2>--- Your Order ---</h2>")
     for(let i in menu){
         if(foodName===menu[i].name)
+            document.write(`${menu[i].name}<br>${menu[i].category}<br>${menu[i].price}<br>${menu[i].available}<br>`);
             return true;
     }
     return false;
