@@ -36,7 +36,7 @@ function insertDashes(num) {
     }
   }
 
-  return result;
+  return Number(result);
 }
 
 function Agechecker(age) {
@@ -46,6 +46,7 @@ function Agechecker(age) {
     console.log("The user is Minor");
   }
 }
+
 let newN=reversesNumber(42647);
 console.log(newN);
 evenOdd();

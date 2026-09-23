@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Ordering System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Restaurant Ordering System</h2>
+
+    <div class="form-group">
+      <label for="customerName">Customer Name:</label>
+      <input type="text" id="customerName" placeholder="Enter your name">
+    </div>
+
+    <div class="form-group">
+      <label for="foodMenu">Choose your meal:</label>
+      <select id="foodMenu">
+        <option value="Burger">Burger</option>
+        <option value="Shawarma">Shawarma</option>
+        <option value="Zinger">Zinger</option>
+      </select>
+    </div>
+
+    
+    <button id="submitBtn">Submit Order</button>
+
+    
+    <p class="order-result"></p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
