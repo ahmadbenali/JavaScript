@@ -1,22 +1,30 @@
-function newEvent(){
-    count += 1;
-    display.textContent = `Clicks: ${count}`;
-    
-    if (count >= 5) {
-        display.style.color = "crimson";
-        display.style.fontWeight = "bold";
-    }
-    
-}
+//const date=new Date();
+// const date=new Date();
 
-//Example 1:
-document.getElementById('btn').onclick =  () =>{document.getElementById('msg').textContent = 'Clicked!';}
+// const dayOfMonth=date.getDate();
+// const month=date.getMonth();// from 0 to 11
+// const year=date.getFullYear();
+// const hours=date.getHours();
+// const dayOfWeek=date.getDay();//day of week from 0 - 6
+
+// console.log(month+1,"/",dayOfMonth,"/",year);//to make it more human readable
+// console.log("thusday: ",dayOfWeek);
+
+console.log("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+const customDate=new Date(2024,7,14,9,45,15);
+
+console.log(customDate);
+
+const Year=customDate.getFullYear();
+const Month=customDate.getMonth();
+const DayOfMonth=customDate.getDate();
+
+const Hours=customDate.getHours();
+const Min=customDate.getMinutes();
+const Sec=customDate.getSeconds();
+
+console.log(Month,"/",DayOfMonth,"/",Year);
+console.log(Hours,"-",Min,"-",Sec);
 
 
-// Example 2: It's a different way 
-const button = document.querySelector("#counter-btn");
-const display = document.querySelector(".counter-display");
-
-let count = 0;
-
-button.onclick = newEvent;

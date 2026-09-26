@@ -24,7 +24,7 @@ submitButton.onclick = function() {
     resultMessage.style.color = "#d32f2f"; 
   } else {
 
-    resultMessage.textContent = "Hello " + customerName + "! Your order is " + foodSelect + ".";
+    resultMessage.textContent = "Hello " + customerName + "! Your order is " + selectedOrder + ".";
     resultMessage.style.color = "#1b5e20"; 
   }
 };

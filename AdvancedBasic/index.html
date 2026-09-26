@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+</head>
+<body>
+    <h1> Restaurant Ordering System</h1>
+    <form id="orderform">
+        <label for="username">Username:</label>
+        <input id="username" type="text" name="username" placeholder="Username" required>
+
+        <label for="password">Password:</label>
+        <input id="password" type="password" name="password" placeholder="Password" required>
+
+        <label for="phone">Phone Number:</label>
+        <input id="phone" type="tel" name="phone" placeholder="Phone Number" required>
+
+        <label for="order">Select your order:</label>
+        <select id="order" name="order" required>
+            <option value="">Select an option</option>
+            <option value="Burger">Burger</option>
+            <option value="Showrma">Showrma</option>
+            <option value="Zinger">Zinger</option>
+        </select>
+
+        <button type="button" id="submitBtn">Submit Order</button>
+    </form>
+
+    <h2 id="display"></h2>
+    <h2 id="display1"></h2>
+    <h2 id="display2"></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
