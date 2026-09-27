@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+</head>
+<body>
+    <h1>My ToDo List</h1>
+
+    <form id="taskForm">
+        <label for="Tasks">Enter a new task:</label>
+        <input id="Task" type="text" required>
+
+        <button id="submit">Add Task</button>
+
+    </form>
+
+    <div style="border: 5px solid black; margin-top: 20px;" id="taskContainer">
+        <h2 style="padding:10px;">Tasks:</h2>
+        <ol id="taskList"></ol>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
