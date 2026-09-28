@@ -3,8 +3,8 @@ let task=document.getElementById('Task');
 let tasks=JSON.parse(localStorage.getItem('tasks')) || [];
 
 //Function to handle form submission
-form.addEventListener('submit', function(event) {
-    event.preventDefault();
+form.addEventListener('submit', function() {
+    
 
     tasks.push(task.value);
     console.log(tasks);

@@ -1,0 +1,10 @@
+{
+    "menu": [
+    {"name":"Burger","Price": 5.99,"Available": true },
+    {"name":"Pizza","Price": 8.99,"Available": true },
+    {"name":"Salad","Price": 4.99,"Available": false },
+    {"name":"Pasta","Price": 7.99,"Available": true }
+    ]
+
+}
+
